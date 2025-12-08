@@ -1,7 +1,0 @@
-pandas
-xmltodict
-google-cloud-bigquery
-google-cloud-storage
-gvm-tools
-schedule
-requests
