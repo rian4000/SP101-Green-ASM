@@ -24,7 +24,7 @@ def upload_to_gcs():
 
     # Upload
     blob.upload_from_filename(UPLOAD_FILE)
-    print(f"✅ Uploaded to gs://{BUCKET_NAME}/{destination_blob}")
+    print(f" Uploaded to gs://{BUCKET_NAME}/{destination_blob}")
 
 if __name__ == "__main__":
     upload_to_gcs()
