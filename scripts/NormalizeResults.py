@@ -6,7 +6,7 @@ import os
 xml_path = os.path.expanduser('~/SP101-Green-ASM/scans/latest_scan.xml')
 csv_path = os.path.expanduser('~/SP101-Green-ASM/scans/normalized_results.csv')
 
-print(f"🔍 Parsing XML: {xml_path}")
+print(f" Parsing XML: {xml_path}")
 
 # Parse the XML file
 tree = ET.parse(xml_path)
@@ -30,5 +30,5 @@ with open(csv_path, 'w', newline='', encoding='utf-8') as csvfile:
 
         writer.writerow([host, port, severity, name, desc])
 
-print(f"✅ Normalized CSV saved at: {csv_path}")
+print(f" Normalized CSV saved at: {csv_path}")
 
