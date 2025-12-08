@@ -17,4 +17,4 @@ with Gmp(connection) as gmp:
     )
     with open(f"{output_dir}/latest_scan.xml", "w") as file:
         file.write(report_xml)
-print("✅ Report exported as scans/latest_scan.xml")
+print("Report exported as scans/latest_scan.xml")
