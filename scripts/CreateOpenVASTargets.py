@@ -23,4 +23,4 @@ with Gmp(connection) as gmp:
     print(f"Task created: {task}")
 
     gmp.start_task(task)
-    print("✅ Scan started successfully!")
+    print("Scan started successfully!")
