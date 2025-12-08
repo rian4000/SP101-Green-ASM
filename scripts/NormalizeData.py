@@ -52,6 +52,6 @@ for file in os.listdir(scan_dir):
 if dfs:
     combined = pd.concat(dfs, ignore_index=True)
     combined.to_csv(output_file, index=False)
-    print(f"✅ Normalized data saved to {output_file}")
+    print(f" Normalized data saved to {output_file}")
 else:
-    print("⚠️ No XML files found in scans directory.")
+    print(" No XML files found in scans directory.")
