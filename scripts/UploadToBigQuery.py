@@ -16,4 +16,4 @@ with open("../scans/normalized_results.csv", "rb") as f:
     job = client.load_table_from_file(f, table_ref, job_config=job_config)
 
 job.result()
-print("✅ Data uploaded to BigQuery successfully!")
+print(" Data uploaded to BigQuery successfully!")
