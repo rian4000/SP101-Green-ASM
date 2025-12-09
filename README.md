@@ -104,6 +104,9 @@ This project demonstrates how open-source tools and cloud technologies can be co
 ## Authors
 Team Green ASM - Kennesaw State University  
 Rian Chowdhury  
+
 Jaimi Reed 
+
 Alan Jose 
+
 Julio Martinez
